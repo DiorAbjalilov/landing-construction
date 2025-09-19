@@ -76,10 +76,10 @@ export default function Services() {
 
         {/* Call to Action Buttons */}
         <div className="text-center space-x-4">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors cursor-pointer">
+          <button className="bg-orange-500 hover:bg-blue-900 text-white px-8 py-3 font-medium transition-colors cursor-pointer border-2 border-transparent">
             All Services
           </button>
-          <button className="border-2 border-gray-300 hover:border-orange-500 text-gray-700 hover:text-orange-500 px-8 py-3 rounded-lg font-medium transition-colors cursor-pointer">
+          <button className="border-2 border-gray-200 hover:border-orange-500 hover:bg-orange-500 text-gray-700 hover:text-gray-100 px-8 py-3 font-medium transition-colors cursor-pointer">
             Contact us now
           </button>
         </div>

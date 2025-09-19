@@ -33,7 +33,7 @@ export default function Hero() {
             reiciendis, repellat placeat deserunt adipisci porro aperiam?
             Officia, sapiente, temporibus!
           </p>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
+          <button className="bg-orange-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
             Start your project
           </button>
         </div>
