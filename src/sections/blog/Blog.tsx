@@ -143,7 +143,7 @@ export default function Blog() {
               style={{ transform: `translateX(-${currentSlide * 33.333}%)` }}>
               {blogPosts.map((post) => (
                 <div key={post.id} className="w-1/3 flex-shrink-0 px-4">
-                  <article className=" shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
+                  <article className="shadow-lg rounded-lg hover:shadow-2xl transition-shadow bg-white border-b border-gray-200">
                     {/* Post Image */}
                     <div className="relative">
                       <Image

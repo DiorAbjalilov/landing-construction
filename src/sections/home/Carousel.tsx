@@ -59,13 +59,13 @@ export default function Carousel() {
                   </div>
 
                   <div className="relative">
-                    <div className="w-full h-96 lg:h-[500px] overflow-hidden flex items-center justify-center">
+                    <div className="w-full h-[700px] overflow-hidden flex items-center justify-center">
                       <Image
                         src={slide.person}
                         alt="Construction Worker"
                         width={500}
                         height={500}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-contain translate-y-10"
                       />
                     </div>
                   </div>
