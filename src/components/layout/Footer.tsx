@@ -87,20 +87,6 @@ export default function Footer() {
             <p className="text-gray-300 text-sm">
               Copyright ©2019 Mugli. All Rights Reserved
             </p>
-            <div className="flex space-x-4 text-sm">
-              <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Disclaimer
-              </span>
-              <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Privacy
-              </span>
-              <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Advertisement
-              </span>
-              <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Contact us
-              </span>
-            </div>
           </div>
         </div>
       </div>
