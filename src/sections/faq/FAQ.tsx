@@ -40,7 +40,7 @@ export default function FAQ() {
   return (
     <section className="py-16 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left side - House image */}
           <div className="relative">
             <Image
@@ -65,16 +65,14 @@ export default function FAQ() {
               {faqItems.map((item) => (
                 <div
                   key={item.id}
-                  className="border border-gray-200 rounded-lg overflow-hidden"
-                >
+                  className="border border-gray-200 rounded-lg overflow-hidden">
                   <button
                     onClick={() => toggleItem(item.id)}
                     className={`w-full px-6 py-4 text-left font-medium flex justify-between items-center transition-colors cursor-pointer ${
                       openItems.includes(item.id)
                         ? "bg-blue-900 hover:bg-blue-800 text-white"
                         : "bg-orange-500 hover:bg-blue-900 text-white"
-                    }`}
-                  >
+                    }`}>
                     <span>{item.question}</span>
                     <svg
                       className={`w-5 h-5 transform transition-transform ${
@@ -82,8 +80,7 @@ export default function FAQ() {
                       }`}
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
+                      stroke="currentColor">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
