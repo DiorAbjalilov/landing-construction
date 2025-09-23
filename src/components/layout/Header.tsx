@@ -15,7 +15,7 @@ export default function Header() {
             />
           </div>
 
-          <nav className="hidden md:flex space-x-10">
+          {/* <nav className="hidden md:flex space-x-10">
             <span className="text-blue-900 hover:text-orange-500 transition-colors cursor-pointer">
               Home
             </span>
@@ -37,9 +37,9 @@ export default function Header() {
             <span className="text-blue-900 hover:text-orange-500 transition-colors cursor-pointer">
               Pages
             </span>
-          </nav>
+          </nav> */}
 
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <div className="flex space-x-4 text-sm">
               <span className="text-blue-900 hover:text-orange-500 transition-colors cursor-pointer">
                 Home
@@ -52,7 +52,7 @@ export default function Header() {
                 News
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

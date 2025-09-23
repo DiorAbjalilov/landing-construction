@@ -9,7 +9,8 @@ export default function Hero() {
               id="grid"
               width="10"
               height="10"
-              patternUnits="userSpaceOnUse">
+              patternUnits="userSpaceOnUse"
+            >
               <path
                 d="M 10 0 L 0 0 0 10"
                 fill="none"
@@ -25,17 +26,15 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-            Let&apos;s Make Awesome Things, Together.
+            Let&apos;s Build Success Together.
           </h2>
           <p className="text-lg text-gray-200 mb-8 max-w-3xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste
-            tenetur quasi tempora, dolore magnam, in quas perspiciatis rem,
-            reiciendis, repellat placeat deserunt adipisci porro aperiam?
-            Officia, sapiente, temporibus!
+            Transform your property with expert renovation, maintenance, and
+            rental solutions in Los Angeles. Ready to start?
           </p>
-          <button className="bg-orange-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
-            Start your project
-          </button>
+          {/* <button className="bg-orange-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
+            Start Your Project
+          </button> */}
         </div>
       </div>
     </section>

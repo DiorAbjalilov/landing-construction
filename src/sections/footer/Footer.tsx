@@ -11,7 +11,8 @@ export default function Footer() {
                 <svg
                   className="w-6 h-6 text-white"
                   fill="currentColor"
-                  viewBox="0 0 20 20">
+                  viewBox="0 0 20 20"
+                >
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
               </div>
@@ -29,7 +30,8 @@ export default function Footer() {
                 <svg
                   className="w-6 h-6 text-white"
                   fill="currentColor"
-                  viewBox="0 0 20 20">
+                  viewBox="0 0 20 20"
+                >
                   <path
                     fillRule="evenodd"
                     d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
@@ -50,7 +52,8 @@ export default function Footer() {
                 <svg
                   className="w-6 h-6 text-white"
                   fill="currentColor"
-                  viewBox="0 0 20 20">
+                  viewBox="0 0 20 20"
+                >
                   <path d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.994a2 2 0 001.156 1.814l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z" />
                 </svg>
               </div>
@@ -64,7 +67,8 @@ export default function Footer() {
                     <svg
                       className="w-4 h-4 text-white"
                       fill="currentColor"
-                      viewBox="0 0 20 20">
+                      viewBox="0 0 20 20"
+                    >
                       <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
                     </svg>
                   </span>
@@ -75,7 +79,8 @@ export default function Footer() {
                     <svg
                       className="w-4 h-4 text-white"
                       fill="currentColor"
-                      viewBox="0 0 20 20">
+                      viewBox="0 0 20 20"
+                    >
                       <path
                         fillRule="evenodd"
                         d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
@@ -112,7 +117,8 @@ export default function Footer() {
                   <svg
                     className="w-4 h-4"
                     fill="currentColor"
-                    viewBox="0 0 20 20">
+                    viewBox="0 0 20 20"
+                  >
                     <path
                       fillRule="evenodd"
                       d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
@@ -181,45 +187,6 @@ export default function Footer() {
                   </span>
                 </li>
               </ul>
-            </div>
-
-            {/* Our News */}
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Our News</h3>
-              <div className="space-y-4">
-                <div className="flex space-x-3">
-                  <div className="w-16 h-16 bg-gray-600 rounded flex-shrink-0 flex items-center justify-center">
-                    <svg
-                      className="w-6 h-6 text-white"
-                      fill="currentColor"
-                      viewBox="0 0 20 20">
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-white text-sm font-medium mb-1">
-                      We Build Your Best Home With Our Best
-                    </h4>
-                    <p className="text-gray-400 text-xs">On: Feb 12, 2015</p>
-                  </div>
-                </div>
-                <div className="flex space-x-3">
-                  <div className="w-16 h-16 bg-gray-600 rounded flex-shrink-0 flex items-center justify-center">
-                    <svg
-                      className="w-6 h-6 text-white"
-                      fill="currentColor"
-                      viewBox="0 0 20 20">
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-white text-sm font-medium mb-1">
-                      The Good Plan for Design To Build Your House
-                    </h4>
-                    <p className="text-gray-400 text-xs">On: Feb 12, 2015</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

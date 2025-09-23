@@ -4,31 +4,31 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Residential Design",
+      title: "One-time Jobs — Renovation & Remodeling",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid",
-      image: "/logos/w1.db69d4c1.png",
+        "Full renovations of apartments, houses, roofing, electrical, plumbing.",
+      image: "/assets/card1.png",
     },
     {
       id: 2,
-      title: "Interior Design",
+      title: "Ongoing Service — Multi-family Maintenance",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid",
-      image: "/logos/w2.4c9ff2bb.png",
+        "Service contracts for 3-50 unit buildings, inspections, repairs.",
+      image: "/assets/card2.png",
     },
     {
       id: 3,
-      title: "Halls Design",
+      title: "Buy & Find — Ready Rental Business (3-6 Units)",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid",
-      image: "/logos/w3.af47e5f7.png",
+        "Search for multi-family homes, CAP rate analysis, deal support.",
+      image: "/assets/card3.png",
     },
     {
       id: 4,
-      title: "Complex Design",
+      title: "Property Management",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid",
-      image: "/logos/w4.1ae3c29c.png",
+        "Tenant screening, lease management, maintenance, rent collection.",
+      image: "/assets/card4.png",
     },
   ];
 
@@ -38,14 +38,14 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="text-sm text-gray-500 uppercase tracking-wider mb-4">
-            WHAT WE DO
+            Our Services
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">
-            We build strong brands and grow businesses through branded
+            One-time Jobs — Renovation & Remodeling
           </h2>
-          <p className="text-xl text-orange-500 font-medium">
+          {/* <p className="text-xl text-orange-500 font-medium">
             services, digital storytelling.
-          </p>
+          </p> */}
         </div>
 
         {/* Services Grid */}
@@ -75,14 +75,14 @@ export default function Services() {
         </div>
 
         {/* Call to Action Buttons */}
-        <div className="text-center space-x-4">
+        {/* <div className="text-center space-x-4">
           <button className="bg-orange-500 hover:bg-blue-900 text-white px-8 py-3 font-medium transition-colors cursor-pointer border-2 border-transparent">
             All Services
           </button>
           <button className="border-2 border-gray-200 hover:border-orange-500 hover:bg-orange-500 text-gray-700 hover:text-gray-100 px-8 py-3 font-medium transition-colors cursor-pointer">
             Contact us now
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

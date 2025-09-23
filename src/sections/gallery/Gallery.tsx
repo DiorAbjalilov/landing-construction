@@ -4,28 +4,28 @@ export default function Gallery() {
   const images = [
     {
       id: 1,
-      src: "/logos/gallery-logo/image-20250108164230-3.jpeg",
-      alt: "Modern Building Architecture",
+      src: "/assets/build-1.jpg",
+      alt: "Modern Multi-Family Building – A stunning example of our renovation expertise in LA.",
     },
     {
       id: 2,
-      src: "/logos/gallery-logo/photo_2022-08-31_18-20-55.jpg",
-      alt: "Interior Design Space",
+      src: "/assets/build1.webp",
+      alt: "Contemporary Home Design – Tailored architectural solutions for your property.",
     },
     {
       id: 3,
-      src: "/logos/gallery-logo/qur4-wECmTZ--.jpg",
-      alt: "Contemporary Architecture",
+      src: "/assets/build2.webp",
+      alt: "Sleek Interior Space – Transformative design for multi-unit residences.",
     },
     {
       id: 4,
-      src: "/logos/gallery-logo/qur4-wECmTZ--.jpg",
-      alt: "Contemporary Architecture",
+      src: "/assets/build3.webp",
+      alt: "Elegant Rental Property – Ready-to-rent 3-6 unit acquisition showcase.",
     },
     {
       id: 5,
-      src: "/logos/gallery-logo/image-20250108164230-3.jpeg",
-      alt: "Modern Building Architecture",
+      src: "/assets/build.webp",
+      alt: "Innovative Building Structure – Cutting-edge construction in Los Angeles.",
     },
   ];
 
@@ -37,7 +37,8 @@ export default function Gallery() {
           {images.map((image) => (
             <div
               key={image.id}
-              className="relative group overflow-hidden flex-shrink-0 w-[33.33%] min-w-[33.33%]">
+              className="relative group overflow-hidden flex-shrink-0 w-[33.33%] min-w-[33.33%]"
+            >
               {/* Image */}
               <Image
                 src={image.src}
@@ -53,18 +54,11 @@ export default function Gallery() {
                   <h3 className="text-2xl font-bold mb-4">
                     Working in new case
                   </h3>
-                  <p className="text-sm mb-6">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt
-                  </p>
+                  <p className="text-sm mb-6">{image.alt}</p>
                   <div className="flex items-center gap-2 font-medium">
                     <span className="w-10 border-b border-white"></span>
                     Building
                   </div>
-                </div>
-                <div className="flex items-center gap-2 font-semibold uppercase text-sm">
-                  Read More
-                  <span>→</span>
                 </div>
               </div>
             </div>

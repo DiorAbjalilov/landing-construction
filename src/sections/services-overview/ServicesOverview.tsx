@@ -4,44 +4,44 @@ export default function ServicesOverview() {
   const services = [
     {
       id: 1,
-      title: "Design build",
+      title: "Roof & Renovation Repairs",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia",
+        "Expert one-time roof fixes and full renovations for homes and apartments in Los Angeles.",
       image: "/logos/servise-logos/download.png",
     },
     {
       id: 2,
-      title: "General Construction",
+      title: "Home Renovation Services",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia",
+        "Comprehensive renovation solutions for any property type in LA.",
       image: "/logos/servise-logos/download (1).png",
     },
     {
       id: 3,
-      title: "Floors & Roofs",
+      title: "Multi-Family Maintenance",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia",
+        "Ongoing service contracts for 3-50 unit multi-family buildings in Los Angeles.",
       image: "/logos/servise-logos/download (2).png",
     },
     {
       id: 4,
-      title: "Building Construction",
+      title: "Building Upkeep Solutions",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia",
+        "Proactive maintenance and emergency repairs for multi-family properties.",
       image: "/logos/servise-logos/download (3).png",
     },
     {
       id: 5,
-      title: "Rooms & Halls",
+      title: "Turnkey Rental Acquisitions",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia",
+        "Services to find and purchase ready-to-rent multi-family homes (3-6 units) in LA.",
       image: "/logos/servise-logos/download (4).png",
     },
     {
       id: 6,
-      title: "Architecture Design",
+      title: "Rental Business Support",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia",
+        "Expert guidance on CAP rate analysis and deal support for rental investments.",
       image: "/logos/servise-logos/download (5).png",
     },
   ];
@@ -60,7 +60,8 @@ export default function ServicesOverview() {
                   style={{
                     clipPath:
                       "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-                  }}>
+                  }}
+                >
                   <Image
                     src={service.image}
                     alt={service.title}

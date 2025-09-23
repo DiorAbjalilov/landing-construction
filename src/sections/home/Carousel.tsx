@@ -7,23 +7,23 @@ const slides = [
   {
     id: 1,
     bg: "/logos/134421_5ae2b54d724e4bb8b02be1dc17b0.jpg",
-    title: "Dream House",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta sapiente, quo in minus nostrum praesentium quidem.",
+    title: "Reliable Renovation & Property Management in Los Angeles",
+    desc: "Expert full-scale renovations, ongoing maintenance for multi-family buildings, and seamless acquisition of turnkey rental properties (3-6 units). Fast, transparent, and hassle-free services tailored for your success.",
     person: "/logos/man.db64c1ff.png",
   },
   {
     id: 2,
-    bg: "/logos/bg2.jpg",
-    title: "Dream House",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta sapiente, quo in minus nostrum praesentium quidem.",
-    person: "/logos/man.db64c1ff.png",
+    bg: "/assets/bg2.jpg",
+    title: "Reliable Ongoing Service for Multi-Family Buildings",
+    desc: "Secure long-term contracts for maintenance, repairs, and management of your multi-family properties. Enjoy peace of mind with our proactive, transparent approach to keeping your investments running smoothly.",
+    person: "",
   },
   {
     id: 3,
-    bg: "/logos/bg3.jpg",
-    title: "Dream House",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta sapiente, quo in minus nostrum praesentium quidem.",
-    person: "/logos/man.db64c1ff.png",
+    bg: "/assets/bg3.jpg",
+    title: "Expert One-Time Renovations in Los Angeles",
+    desc: "From roof repairs to full home makeovers, we handle any renovation project with precision and quality. Transform your property efficiently and affordably – no job is too big or small.",
+    person: "",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function Carousel() {
   return (
     <section className="relative overflow-hidden">
       <Swiper spaceBetween={0} slidesPerView={1} loop={true}>
-        {slides.map((slide) => (
+        {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}>
             <div className="relative w-full h-[700px]">
               <Image
@@ -49,26 +49,28 @@ export default function Carousel() {
                     <div className="text-sm uppercase tracking-wider">
                       WE MAKE
                     </div>
-                    <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+                    <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
                       {slide.title}
                     </h1>
-                    <p className="text-lg leading-relaxed">{slide.desc}</p>
-                    <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
+                    <p className="text-xl leading-relaxed">{slide.desc}</p>
+                    {/* <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
                       Get details
-                    </button>
+                    </button> */}
                   </div>
 
-                  <div className="relative">
-                    <div className="w-full h-[700px] overflow-hidden flex items-center justify-center">
-                      <Image
-                        src={slide.person}
-                        alt="Construction Worker"
-                        width={500}
-                        height={500}
-                        className="w-full h-full object-contain translate-y-10"
-                      />
+                  {index === 0 && (
+                    <div className="relative">
+                      <div className="w-full h-[700px] overflow-hidden flex items-center justify-center">
+                        <Image
+                          src={slide.person}
+                          alt="Construction Worker"
+                          width={500}
+                          height={500}
+                          className="w-full h-full object-contain translate-y-10"
+                        />
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>
