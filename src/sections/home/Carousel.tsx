@@ -30,10 +30,10 @@ const slides = [
 export default function Carousel() {
   return (
     <section className="relative overflow-hidden">
-      <Swiper spaceBetween={0} slidesPerView={1} loop={true}>
+      <Swiper spaceBetween={0} slidesPerView={1} loop={true} className="w-full">
         {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}>
-            <div className="relative w-full h-[700px]">
+            <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh]">
               <Image
                 src={slide.bg}
                 alt="Background"
@@ -44,29 +44,31 @@ export default function Carousel() {
               <div className="absolute inset-0 bg-black/40" />
 
               <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  <div className="space-y-6 text-white">
-                    <div className="text-sm uppercase tracking-wider">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-12 items-center">
+                  <div className="space-y-4 sm:space-y-6 text-white">
+                    <div className="text-sm sm:text-base uppercase tracking-wider">
                       WE MAKE
                     </div>
-                    <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
+                    <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold leading-tight">
                       {slide.title}
                     </h1>
-                    <p className="text-xl leading-relaxed">{slide.desc}</p>
-                    {/* <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-colors cursor-pointer">
+                    <p className="text-sm sm:text-base lg:text-xl leading-relaxed">
+                      {slide.desc}
+                    </p>
+                    {/* <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 sm:px-8 py-2 sm:py-4 rounded-lg font-medium transition-colors cursor-pointer">
                       Get details
                     </button> */}
                   </div>
 
-                  {index === 0 && (
-                    <div className="relative">
-                      <div className="w-full h-[700px] overflow-hidden flex items-center justify-center">
+                  {index === 0 && slide.person && (
+                    <div className="relative hidden sm:block">
+                      <div className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden flex items-center justify-center">
                         <Image
                           src={slide.person}
                           alt="Construction Worker"
                           width={500}
                           height={500}
-                          className="w-full h-full object-contain translate-y-10"
+                          className="w-full h-full object-contain translate-y-4 sm:translate-y-10"
                         />
                       </div>
                     </div>
