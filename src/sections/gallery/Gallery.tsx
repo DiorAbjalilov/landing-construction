@@ -31,32 +31,31 @@ export default function Gallery() {
 
   return (
     <section className="bg-white">
-      <div className="w-full mx-auto ">
+      <div className="w-full mx-auto">
         {/* Scroll container */}
-        <div className="flex overflow-x-auto scrollbar-hide">
+        <div className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory">
           {images.map((image) => (
             <div
               key={image.id}
-              className="relative group overflow-hidden flex-shrink-0 w-[33.33%] min-w-[33.33%]"
-            >
+              className="relative group overflow-hidden flex-shrink-0 w-full sm:w-[50%] md:w-[33.33%] min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] snap-center">
               {/* Image */}
               <Image
                 src={image.src}
                 alt={image.alt}
                 width={400}
                 height={300}
-                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-110"
+                className="w-full h-[300px] sm:h-[350px] md:h-[400px] object-cover transition-transform duration-300 group-hover:scale-110"
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-orange-600 text-white p-8 flex flex-col justify-between transform scale-0 group-hover:scale-100 transition-transform duration-500 origin-center">
+              <div className="absolute inset-0 bg-orange-600 text-white p-4 sm:p-6 flex flex-col justify-between transform scale-0 group-hover:scale-100 transition-transform duration-500 origin-center">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">
                     Working in new case
                   </h3>
-                  <p className="text-sm mb-6">{image.alt}</p>
-                  <div className="flex items-center gap-2 font-medium">
-                    <span className="w-10 border-b border-white"></span>
+                  <p className="text-xs sm:text-sm mb-2 sm:mb-4">{image.alt}</p>
+                  <div className="flex items-center gap-1 sm:gap-2 font-medium">
+                    <span className="w-6 sm:w-10 border-b border-white"></span>
                     Building
                   </div>
                 </div>
