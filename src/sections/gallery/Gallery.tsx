@@ -19,7 +19,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      src: "/assets/build3.webp",
+      src: "/assets/build3.png",
       alt: "Elegant Rental Property – Ready-to-rent 3-6 unit acquisition showcase.",
     },
     {

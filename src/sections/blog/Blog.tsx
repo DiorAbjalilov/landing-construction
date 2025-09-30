@@ -15,7 +15,7 @@ export default function Blog() {
       date: "19 Oct",
       excerpt:
         "Discover the latest renovation trends shaping LA properties, from modern kitchen upgrades to eco-friendly roofing solutions. Our expert team highlights how these updates boost property value and appeal for multi-family units.",
-      image: "/assets/blog-1.png",
+      image: "/assets/blog-1-min (1).webp",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default function Blog() {
       date: "19 Oct",
       excerpt:
         "Learn essential maintenance tips for 3-50 unit buildings in Los Angeles. We cover preventive strategies and emergency repairs to ensure your investment remains profitable and tenant-friendly.",
-      image: "/assets/blog-2.png",
+      image: "/assets/blog-2-min.webp",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function Blog() {
       date: "19 Oct",
       excerpt:
         "Explore the benefits of acquiring 3-6 unit rental properties in LA. Get insights on CAP rate analysis and seamless acquisition processes to grow your rental portfolio with minimal hassle.",
-      image: "/assets/blog-3.png",
+      image: "/assets/blog-3-min.webp",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ export default function Blog() {
       date: "19 Oct",
       excerpt:
         "Unlock practical advice for renovating homes and apartments in Los Angeles. From electrical upgrades to plumbing fixes, our experts share how to enhance your property efficiently.",
-      image: "/assets/blog-4.png",
+      image: "/assets/blog-4-min.webp",
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ export default function Blog() {
       date: "19 Oct",
       excerpt:
         "Understand the advantages of hiring experts for tenant screening, lease management, and rent collection in Los Angeles’ multi-family market. Keep your properties thriving with ease.",
-      image: "/assets/blog-5.png",
+      image: "/assets/blog-5-min.webp",
     },
     {
       id: 6,
@@ -60,7 +60,7 @@ export default function Blog() {
       date: "19 Oct",
       excerpt:
         "Learn strategies to expand your rental portfolio with 3-6 unit properties in Los Angeles. We dive into market trends and acquisition support for successful investments.",
-      image: "/assets/blog-6.png",
+      image: "/assets/blog-6-min.webp",
     },
   ];
 

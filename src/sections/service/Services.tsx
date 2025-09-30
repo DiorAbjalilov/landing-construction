@@ -7,28 +7,28 @@ export default function Services() {
       title: "One-time Jobs — Renovation & Remodeling",
       description:
         "Full renovations of apartments, houses, roofing, electrical, plumbing.",
-      image: "/assets/card1.png",
+      image: "/assets/card1-min.webp",
     },
     {
       id: 2,
       title: "Ongoing Service — Multi-family Maintenance",
       description:
         "Service contracts for 3-50 unit buildings, inspections, repairs.",
-      image: "/assets/card2.png",
+      image: "/assets/card2-min.webp",
     },
     {
       id: 3,
       title: "Buy & Find — Ready Rental Business (3-6 Units)",
       description:
         "Search for multi-family homes, CAP rate analysis, deal support.",
-      image: "/assets/card3.png",
+      image: "/assets/card3-min.webp",
     },
     {
       id: 4,
       title: "Property Management",
       description:
         "Tenant screening, lease management, maintenance, rent collection.",
-      image: "/assets/card4.png",
+      image: "/assets/card4-min.webp",
     },
   ];
 

@@ -33,12 +33,12 @@ export default function Footer() {
             </div>
             <div className="flex flex-col space-y-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 overflow-hidden">
+                <div className="w-8 h-8 overflow-hidden">
                   <Image
                     src="/logos/footer-logos/download.png"
                     alt="Phone"
-                    width={48}
-                    height={48}
+                    width={32}
+                    height={32}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -53,12 +53,12 @@ export default function Footer() {
               </div>
 
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12  overflow-hidden">
+                <div className="w-8 h-8  overflow-hidden">
                   <Image
                     src="/logos/footer-logos/download (1).png"
                     alt="House"
-                    width={48}
-                    height={48}
+                    width={32}
+                    height={32}
                     className="w-full h-full object-cover"
                   />
                 </div>
